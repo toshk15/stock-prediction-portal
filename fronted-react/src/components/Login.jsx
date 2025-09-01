@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 const Login = () => {  
   
   return (   
-      <div className='text light container'>Login</div> 
+      <div className='text-light container'>Login</div> 
  
   )
 }

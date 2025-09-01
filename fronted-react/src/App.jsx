@@ -16,13 +16,11 @@ function App() {
       <Header />
         <Routes>
           <Route path='/' element={<Main />} /> 
-          <Route path='/Register' element={<Register />} /> 
-          <Route path='/Login' element={<Login />} /> 
-      
+          <Route path='/register' element={<Register />} /> 
+          <Route path='/login' element={<Login />} />       
         </Routes>
       <Footer />
-      </BrowserRouter>
-  
+      </BrowserRouter> 
       
     </>
   )
